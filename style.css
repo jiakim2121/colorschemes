@@ -1,0 +1,2304 @@
+*, *:after, *:before { 
+  box-sizing: border-box;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden; 
+  
+  
+
+} 
+
+body {background-color:black;} 
+
+.container1{
+  opacity:.9;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: five 1s infinite;
+  -webkit-animation-duration: 60s; 
+}
+
+
+
+.container5{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: five 1s infinite;
+  -webkit-animation-duration: 60s; 
+}
+.container6{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: six 1s infinite;
+  -webkit-animation-duration: 40s; 
+}
+
+.container6 .background2{
+  
+  
+  opacity:.1;
+  z-index:10;
+  position:absolute;
+  height:1000%;
+  width:1000%;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:red; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container7{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ #-webkit-animation: seven 1s infinite;
+  #-webkit-animation-duration: 60s; 
+}
+
+.container8{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  #-webkit-animation: eight 1s infinite;
+  #-webkit-animation-duration: 60s; 
+}
+
+.container9{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: nine 1s infinite;
+  -webkit-animation-duration: 16s; 
+}
+
+.container9 .background2 
+{opacity:.1;
+  z-index:10;
+  position:absolute;
+  height:10000%;
+  width:10000%;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:red; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;}
+
+.container10{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: ten 1s infinite;
+  -webkit-animation-duration: 60s; 
+}
+
+.container11{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: eleven 1s infinite;
+  -webkit-animation-duration: 60s; 
+}
+
+.container12{
+  opacity:0;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: twelve 1s infinite;
+  -webkit-animation-duration: 60s; 
+}
+
+.container13{
+  opacity:.6;
+  position:absolute;
+  min-height:100vh;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-color:black; 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   
+ -webkit-animation: thirteen 1s infinite;
+  -webkit-animation-duration: 60s; 
+}
+
+.container13 .background2{
+  
+  
+  opacity:.3;
+  z-index:10;
+  position:absolute;
+  height:1000%;
+  width:10000%;
+  top:30%;
+  bottom:20%;
+  right:10%;
+  left:20%;
+  background-image:linear-gradient(to right, blue, transparent,transparent, transparent); 
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye{
+  
+  
+  opacity:.7;
+  z-index:100;
+  position:absolute;
+  height:2%;
+  width:2%;
+  
+  bottom:70%;
+  right:60%;
+  border-radius:50%;
+  
+  background-image:linear-gradient(to right, red); 
+  background-color:transparent;
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .lefteye .one{
+  
+  
+  opacity:.2;
+  z-index:10000;
+  position:absolute;
+  height:10%;
+  width:8%;
+  
+  bottom:50%;
+  right:37%;
+  border-radius:40%;
+  background-image:radial-gradient(rgb(252, 98, 3), rgb(252, 98, 3),red);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  box-shadow: 100px 500px 500px white;
+ 
+}
+
+
+
+.container13 .lefteye .two{
+  
+  
+  opacity:.1;
+  z-index:1000;
+  position:absolute;
+  height:20%;
+  width:19%;
+  
+  bottom:50%;
+  right:37%;
+  border-radius:50%;
+  background-image:radial-gradient(red, rgb(252, 200, 3),red);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   box-shadow: 100px 5px 5px white;
+ 
+}
+
+.container13 .lefteye .three{
+  
+  
+  opacity:.2;
+  z-index:1000;
+  position:absolute;
+  height:20%;
+  width:20%;
+  
+  bottom:50%;
+  right:37%;
+  border-radius:30%;
+  background-image:radial-gradient(red, white,red);
+  transform:scale(1.8);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   box-shadow: 100px 5px 5px white;
+ 
+}
+.container13 .lefteye .four{
+  
+  
+  opacity:.1;
+  z-index:1000;
+  position:absolute;
+  height:20%;
+  width:20%;
+  
+  bottom:40%;
+  right:37%;
+  border-radius:30%;
+  background-image:radial-gradient(red, white,red);
+  transform:scale(1.8);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   box-shadow: 100px 5px 5px red;
+ 
+}
+
+
+.container13 .lefteye .five{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:38%;
+  width:25%;
+  
+  bottom:40%;
+  right:34%;
+  border-radius:40%;
+  background-image:linear-gradient(to bottom right,transparent,gray,white,red,transparent,red, gray, transparent);
+  transform:scale(1.8);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  box-shadow: 100% red;
+ 
+}
+
+.container13 .lefteye .six{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:50%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .seven{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:60%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .eight{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:70%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .nine{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:40%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .ten{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:3%;
+  width:15%;
+  bottom:85%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,gray,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .righteye{
+  
+  
+  opacity:.7;
+  z-index:100;
+  position:absolute;
+  height:2%;
+  width:2%;
+  
+  bottom:69%;
+  right:64%;
+  border-radius:50%;
+  
+  background-image:linear-gradient(to right, red); 
+  background-color:transparent;
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+ 
+}
+
+.container13 .righteye .one{
+  
+  
+  opacity:.4;
+  z-index:10000;
+  position:absolute;
+  height:10%;
+  width:8%;
+  
+  bottom:50%;
+  right:37%;
+  border-radius:40%;
+  background-image:radial-gradient(rgb(250, 202, 202), rgb(250, 202, 202),rgb(250, 202, 202));
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  box-shadow: 100px 5px 5px white;
+ 
+}
+
+
+
+.container13 .righteye .two{
+  
+  
+  opacity:.1;
+  z-index:1000;
+  position:absolute;
+  height:20%;
+  width:19%;
+  
+  bottom:50%;
+  right:37%;
+  border-radius:50%;
+  background-image:radial-gradient(red, rgb(252, 200, 3),red);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   box-shadow: 100px 5px 5px white;
+ 
+}
+
+.container13 .righteye .three{
+  
+  
+  opacity:.2;
+  z-index:1000;
+  position:absolute;
+  height:20%;
+  width:20%;
+  
+  bottom:50%;
+  right:37%;
+  border-radius:30%;
+  background-image:radial-gradient(red, white,red);
+  transform:scale(1.8);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   box-shadow: 100px 5px 5px white;
+ 
+}
+.container13 .righteye .four{
+  
+  
+  opacity:.1;
+  z-index:1000;
+  position:absolute;
+  height:20%;
+  width:20%;
+  
+  bottom:40%;
+  right:37%;
+  border-radius:30%;
+  background-image:radial-gradient(red, white,red);
+  transform:scale(1.8);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+   box-shadow: 100px 5px 5px red;
+ 
+}
+
+
+.container13 .righteye .five{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:38%;
+  width:25%;
+  
+  bottom:40%;
+  right:34%;
+  border-radius:40%;
+  background-image:linear-gradient(to bottom right,black,transparent,gray,white,red,transparent,red, black, transparent);
+  transform:scale(1.8);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  box-shadow: 100% red;
+ 
+}
+
+.container13 .righteye .six{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:50%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .righteye .seven{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:60%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .righteye .eight{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:70%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .righteye .nine{
+  
+  
+  opacity:.2;
+  z-index:100;
+  position:absolute;
+  height:5%;
+  width:25%;
+  bottom:40%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,orange,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+
+.container13 .righteye .ten{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:3%;
+  width:15%;
+  bottom:85%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, white,gray,white);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .righteye .eleven{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:10%;
+  width:25%;
+  bottom:80%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, transparent,black,red,white,transparent);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .eleven{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:10%;
+  width:25%;
+  bottom:80%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to right, transparent,black,red,white,transparent);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .twelve{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:50%;
+  width:25%;
+  bottom:30%;
+  right:30%;
+  border-radius:40%;
+  background-image:linear-gradient(to bottom, transparent,white,red,white,transparent);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .lefteye .thirteen{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:3%;
+  width:3%;
+  bottom:50%;
+  right:40%;
+  border-radius:40%;
+  background-image:linear-gradient(to bottom, transparent,red,red);
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+
+
+.container13 .leftear{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:8%;
+  width:4%;
+  
+  bottom:78%;
+  right:57%;
+  border-radius:50%;
+  
+  background-image:linear-gradient(to right, red); 
+  background-color:transparent;
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .one{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:7%;
+  width:29%;
+  bottom:8%;
+  right:32%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(32deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .two{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:25%;
+  width:7%;
+  bottom:35%;
+  right:28%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) z-index(-20deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .three{
+  
+  
+  opacity:.6;
+  z-index:100;
+  position:absolute;
+  height:30%;
+  width:7%;
+  bottom:15%;
+  right:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(-15deg);;
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .leftear .four{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:20%;
+  right:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+}
+
+.container13 .leftear .five{
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:28%;
+  right:25%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .six{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:29%;
+  width:5%;
+  bottom:53%;
+  right:75%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .leftear .seven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:53%;
+  right:65%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .eight{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  right:50%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .nine{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  right:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .ten{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:57%;
+  right:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .eleven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:64%;
+  right:46%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .twelve{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:25%;
+  right:35%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 40), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftear .thirteen{
+  opacity:.1;
+  z-index:100;
+  position:absolute;
+  height:27%;
+  width:25%;
+  bottom:40%;
+  right:48%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),white, transparent); 
+  
+  transform:scale(1.8) rotateZ(-40deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:8%;
+  width:4%;
+  
+  bottom:78%;
+  right:65%;
+  border-radius:50%;
+  
+  background-image:linear-gradient(to right, red); 
+  background-color:transparent;
+  transform:scale(1.8) rotateZ(-160deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .one{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:7%;
+  width:29%;
+  bottom:8%;
+  right:32%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(32deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .two{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:25%;
+  width:7%;
+  bottom:35%;
+  right:28%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) z-index(-20deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .three{
+  
+  
+  opacity:.6;
+  z-index:100;
+  position:absolute;
+  height:30%;
+  width:7%;
+  bottom:15%;
+  right:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(-15deg);;
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .rightear .four{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:20%;
+  right:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+}
+
+.container13 .rightear .five{
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:28%;
+  right:25%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .six{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:29%;
+  width:5%;
+  bottom:53%;
+  right:75%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .rightear .seven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:53%;
+  right:65%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .eight{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  right:50%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .nine{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  right:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .ten{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:57%;
+  right:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .eleven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:64%;
+  right:46%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .twelve{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:25%;
+  right:35%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 40), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightear .thirteen{
+  opacity:.1;
+  z-index:100;
+  position:absolute;
+  height:27%;
+  width:25%;
+  bottom:40%;
+  right:48%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),white, transparent); 
+  
+  transform:scale(1.8) rotateZ(-40deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+.container13 .rightface{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:2%;
+  
+  bottom:60%;
+  right:66%;
+  border-radius:  100% 50% 40% 70% / 80% 50% 60% 50%;
+  
+  background-image:linear-gradient(to bottom,transparent, rgb(26, 25, 50),rgb(26, 25, 20),transparent); 
+  
+  transform:scale(1.8) rotateZ(0deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+
+.container13 .rightface .one{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:7%;
+  width:29%;
+  bottom:8%;
+  right:32%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(32deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .two{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:25%;
+  width:7%;
+  bottom:35%;
+  right:28%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) z-index(-20deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .three{
+  
+  
+  opacity:.6;
+  z-index:100;
+  position:absolute;
+  height:30%;
+  width:7%;
+  bottom:15%;
+  right:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(-15deg);;
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .rightface .four{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:20%;
+  right:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+}
+
+.container13 .rightface .five{
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:28%;
+  right:25%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .six{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:29%;
+  width:5%;
+  bottom:53%;
+  right:75%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .rightface .seven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:53%;
+  right:65%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .eight{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  right:50%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .nine{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  right:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .ten{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:57%;
+  right:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .eleven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:64%;
+  right:46%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .twelve{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:25%;
+  right:35%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 40), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .rightface .thirteen{
+  opacity:.1;
+  z-index:100;
+  position:absolute;
+  height:27%;
+  width:25%;
+  bottom:40%;
+  right:48%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),gray, transparent); 
+  
+  transform:scale(1.8) rotateZ(-40deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+.container13 .leftface{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:2%;
+  
+  bottom:60%;
+  right:57%;
+  border-radius:  100% 50% 40% 70% / 80% 50% 60% 50%;
+  
+  background-image:linear-gradient(to top,transparent,rgb(26, 25, 50),rgb(26, 25, 20),transparent); 
+  
+  transform:scale(1.8) rotateZ(180deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+
+.container13 .leftface .one{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:7%;
+  width:29%;
+  bottom:8%;
+  left:32%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(32deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .two{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:25%;
+  width:7%;
+  bottom:35%;
+  left:28%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) z-index(-20deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .three{
+  
+  
+  opacity:.6;
+  z-index:100;
+  position:absolute;
+  height:30%;
+  width:7%;
+  bottom:15%;
+  left:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(-15deg);;
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .leftface .four{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:20%;
+  left:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+}
+
+.container13 .leftface .five{
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:28%;
+  left:25%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .six{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:29%;
+  width:5%;
+  bottom:53%;
+  left:75%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .leftface .seven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:53%;
+  left:65%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .eight{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  left:50%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .nine{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  left:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .ten{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:57%;
+  left:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .eleven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:64%;
+  left:46%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .twelve{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:25%;
+  left:35%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 40), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .leftface .thirteen{
+  opacity:.1;
+  z-index:100;
+  position:absolute;
+  height:27%;
+  width:25%;
+  bottom:40%;
+  left:48%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),gray, transparent); 
+  
+  transform:scale(1.8) rotateZ(-40deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose{
+  
+  
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:8%;
+  width:2%;
+  
+  display: block;
+  background-color: #333;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+  
+  bottom:65%;
+  right:62%;
+  
+  
+  background-image:linear-gradient(to right,transparent,rgb(26,25,40),rgb(26, 25, 20),transparent); 
+  
+  transform:scale(1.8) rotateZ(180deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+
+.container13 .nose .one{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:7%;
+  width:29%;
+  bottom:8%;
+  left:32%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(32deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .two{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:25%;
+  width:7%;
+  bottom:35%;
+  left:28%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) z-index(-20deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .three{
+  
+  
+  opacity:.6;
+  z-index:100;
+  position:absolute;
+  height:30%;
+  width:7%;
+  bottom:15%;
+  left:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(-15deg);;
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .nose .four{
+  
+  
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:20%;
+  left:23%;
+  border-radius:50%;
+  
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+}
+
+.container13 .nose .five{
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:28%;
+  left:25%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .six{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:29%;
+  width:5%;
+  bottom:53%;
+  left:75%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+ 
+}
+
+.container13 .nose .seven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:53%;
+  left:65%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 20),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .eight{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  left:50%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .nine{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:43%;
+  left:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .ten{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:57%;
+  left:40%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .eleven{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:64%;
+  left:46%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .twelve{
+  opacity:1;
+  z-index:100;
+  position:absolute;
+  height:11%;
+  width:10%;
+  bottom:25%;
+  left:35%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 40), transparent); 
+  
+  transform:scale(1.8) rotateZ(30deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .nose .thirteen{
+  opacity:.1;
+  z-index:100;
+  position:absolute;
+  height:27%;
+  width:25%;
+  bottom:40%;
+  left:48%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),gray, transparent); 
+  
+  transform:scale(1.8) rotateZ(-40deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+.container13 .mouth{
+  
+  
+  opacity:.8;
+  z-index:100;
+  position:absolute;
+  height:4%;
+  width:2%;
+  
+  
+  
+  border-radius: 100% 50% 40% 70% / 80% 50% 60% 50%;
+
+  
+  bottom:59%;
+  right:62%;
+  
+  
+  background-image:linear-gradient(to top,black,black); 
+  
+  transform:scale(1.8) rotateZ(90deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+
+
+.container13 .mouth .one{
+  
+  
+  opacity:.3;
+  z-index:100;
+  position:absolute;
+  
+  bottom:60%;
+  left:70%;
+  width: 0%;
+	height: 0%;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 5px solid red;
+  
+   
+  
+  transform:scale(1.8) rotateZ(-90deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .mouth .two{
+  
+  
+  opacity:.3;
+  z-index:100;
+  position:absolute;
+  
+  bottom:39%;
+  left:70%;
+  width: 0%;
+	height: 0%;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 5px solid red;
+  
+   
+  
+  transform:scale(1.8) rotateZ(-90deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+
+.container13 .mouth .three{
+  
+  
+  opacity:.3;
+  z-index:100;
+  position:absolute;
+  
+  bottom:49%;
+  left:50%;
+  width: 0%;
+	height: 0%;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 5px solid red;
+  
+   
+  
+  transform:scale(1.8) rotateZ(90deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+.container13 .mouth .four{
+  
+  
+  opacity:.3;
+  z-index:100;
+  position:absolute;
+  
+  bottom:-10%;
+  left:50%;
+  width: 0%;
+	height: 0%;
+	border-left: 2px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 10px solid red;
+  
+   
+  
+  transform:scale(1.8) rotateZ(90deg);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+.container13 .mouth .five{
+  opacity:.5;
+  z-index:100;
+  position:absolute;
+  height:9%;
+  width:7%;
+  bottom:28%;
+  left:25%;
+  border-radius:50%;
+  background-image:radial-gradient(rgb(26, 25, 0),rgb(26, 25, 20), transparent); 
+  
+  transform:scale(1.8);
+  #flex-direction: column-reverse;
+  align-items: center;
+  
+  
+ 
+}
+ 
+.container13 .mouth .thirteen {
+  opacity:.3;
+ 
+  width: 220%;
+  height: 220%; 
+  background-color:white;
+  transform: scale(1.8) rotateZ(0deg);
+  border-radius: 50% 50% 40% 70% / 50% 50% 60% 50%; 
+   bottom:1000%;
+  right:20%;  
+  
+}
